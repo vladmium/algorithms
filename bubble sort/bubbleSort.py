@@ -1,5 +1,5 @@
-arr = []
 n = int(input('Enter size of your array: '))
+arr = []
 for i in range(1, n+1):
     if i == 1:
         ele = int(input("Enter 1st element: "))
