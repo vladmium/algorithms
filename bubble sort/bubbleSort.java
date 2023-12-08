@@ -6,7 +6,7 @@ class bubbleSort {
         Scanner scn = new Scanner(System.in);
         System.out.print("Enter size of your array: ");
         int n = scn.nextInt();
-        ArrayList<Integer> arr = new ArrayList<>(n);
+        ArrayList<Integer> arr = new ArrayList<>();
         for (int i = 1; i < n + 1; i++) {
             if (i == 1) {
                 System.out.print("Enter 1st element: ");
