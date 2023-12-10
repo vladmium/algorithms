@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-class bubbleSort {
+public class bubbleSort {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.print("Enter size of your array: ");
