@@ -22,7 +22,6 @@ public class selectionSort {
         }
         System.out.println("Input array: " + arr);
         ArrayList<Integer> ans = new ArrayList<>();
-
         for (int i = 0; i < n; i++) {
             int mini = 1000000000;
             int mini_j = 0;
