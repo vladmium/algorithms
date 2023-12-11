@@ -16,7 +16,7 @@ int main()
         cin >> ele;
         arr.push_back(ele);
     }
-    for(int i =0; i < n; i++){
+    for(int i = 0; i < n; i++){
         if(i == 0) cout << "Input array: " << "[";
         if(i>=0 && i<=n-2) cout << arr[i] <<", "; 
         if(i==n-1) cout << arr[i] << "]" << endl; 
@@ -30,7 +30,7 @@ int main()
             }
         }
     }
-    for(int i =0; i < n; i++){
+    for(int i = 0; i < n; i++){
         if(i == 0) cout << "Sorted array: " << "[";
         if(i>=0 && i<=n-2) cout << arr[i] <<", ";
         if(i==n-1) cout << arr[i] << "]" << endl; 
