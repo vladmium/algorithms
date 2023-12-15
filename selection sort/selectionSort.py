@@ -11,7 +11,6 @@ for i in range(1, n+1):
         ele = int(input("Enter "+str(i)+"th element: "))
     arr.append(ele)
 print("Input array: ", arr)
-
 for i in range(n):
     small = 1000000000
     for j in range(i, n):
