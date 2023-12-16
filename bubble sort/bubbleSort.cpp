@@ -12,9 +12,9 @@ int main()
         else if(i == 2) cout << "Enter 2nd element: "; 
         else if(i == 3) cout << "Enter 3rd element: ";
         else cout << "Enter "<< i <<"th element: ";
-        int ele;
-        cin >> ele;
-        arr.push_back(ele);
+        int val;
+        cin >> val;
+        arr.push_back(val);
     }
     for(int i = 0; i < n; i++){
         if(i == 0) cout << "Input array: " << "[";
