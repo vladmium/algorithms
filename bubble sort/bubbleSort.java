@@ -17,8 +17,8 @@ public class bubbleSort {
             } else {
                 System.out.print("Enter " + i + "th element: ");
             }
-            int ele = scn.nextInt();
-            arr.add(ele);
+            int val = scn.nextInt();
+            arr.add(val);
         }
         System.out.println("Input array: " + arr);
         for (int i = 0; i < n - 1; i++) {
